@@ -13,3 +13,23 @@ If reimplementing this from scratch, consider:
 * Enable image export
 * Let the user type in a real and complex component and generate it for them
 * Find a way to get just the coolest Julia sets (most of them are pretty boring, but some of them are spectacular)
+* Instead of just black and white, [apply some coloring](http://www.malinc.se/m/JuliaSets.php) -- not sure how they do it, but probably they replace the black => white continuum with a rainbow
+* Or [fractalize images](http://www.malinc.se/m/ImageFractals.php)
+
+# Art creation?
+
+To uniquely identify a piece of fractal art, you would specify:
+
+* `Re[c]`, the real part of the `c` parameter, on [-1, 1]
+* `Im[c]`, the imaginary part of the `c` parameter, on [-1, 1]
+* The zoom level
+* The (x, y) where the zoom should be centered
+* If doing multi-Julia sets: `n`, the exponent on `z`
+
+If you let the user specify all of these, then they can pan and zoom around on even the most boring-looking Julia fractal to get some really cool art.
+
+# Breeding fractals?
+
+I wonder if you can let one Julia fractal be the parent of another fractal, or if you can mix two fractals to get properties of a third. I guess you could multiply two `c`'s together but chaos theory says that the child would have nothing in common with the parents.
+
+Alternatively, if you have a simple `c`, then people can create an infinite number of descendants by panning and zooming in the resultant image. But that's not nestable.
