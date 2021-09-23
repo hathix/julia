@@ -15,6 +15,8 @@ If reimplementing this from scratch, consider:
 * Find a way to get just the coolest Julia sets (most of them are pretty boring, but some of them are spectacular)
 * Instead of just black and white, [apply some coloring](http://www.malinc.se/m/JuliaSets.php) -- not sure how they do it, but probably they replace the black => white continuum with a rainbow
 * Or [fractalize images](http://www.malinc.se/m/ImageFractals.php)
+* Use advanced smoothing algorithms like [renormalizing the Mandelbrot escape](http://linas.org/art-gallery/escape/escape.html) and [smooth shading for Mandelbrot](http://linas.org/art-gallery/escape/smooth.html) -- I think that's still applicable to Julia sets, lol
+* Or just expand into Mandelbrot sets!
 
 # Art creation?
 
