@@ -12,3 +12,4 @@ If reimplementing this from scratch, consider:
 * Use [math.js](https://mathjs.org/docs/datatypes/complex_numbers.html) through npm
 * Enable image export
 * Let the user type in a real and complex component and generate it for them
+* Find a way to get just the coolest Julia sets (most of them are pretty boring, but some of them are spectacular)
