@@ -17,6 +17,14 @@ If reimplementing this from scratch, consider:
 * Or [fractalize images](http://www.malinc.se/m/ImageFractals.php)
 * Use advanced smoothing algorithms like [renormalizing the Mandelbrot escape](http://linas.org/art-gallery/escape/escape.html) and [smooth shading for Mandelbrot](http://linas.org/art-gallery/escape/smooth.html) -- I think that's still applicable to Julia sets, lol
 * Or just expand into Mandelbrot sets!
+* Use [orbit traps](http://www.malinc.se/m/OrbitTraps.php) to make really trippy art
+
+# Explanation
+
+[From here](http://www.malinc.se/m/OrbitTraps.php):
+
+> When using an iterative function to generate the Mandelbrot set or a Julia set, each iterated point will be generated along a so-called orbit. A straightforward way to generate the Mandelbrot set or a filled-in Julia set, is to iterate until the distance to the origin is larger than 2, where the point escapes (it is certain that it will diverge if the iteration continues). The number of iterations until a point escapes, or the angle of the point at the escape-time, can be used to choose a color from some palette.
+> When using an orbit trap, instead of the escape time, the distance between the trap and the orbit of a point is used to colour the fractal. When iterating a point along its orbit, the distance to the orbit trap from each point on the orbit is calculated, then the minimum distance is used to colour the original point. The iteration continues for a fix number or steps, or until a point on the orbit gets sufficiently close to the trap - in which case the orbit gets trapped.
 
 # Art creation?
 
